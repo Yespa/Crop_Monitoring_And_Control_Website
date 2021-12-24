@@ -1,0 +1,51 @@
+.edit_boton{
+    font: bold 15px Verdana;
+    text-decoration:none;
+    border:2px solid #5edd53;
+    padding:5px 10px 5px 10px;
+    border-radius:7px;
+    transition: background .5s, color .5s;
+}
+
+.edit_boton:hover{
+    background: rgb(157, 211, 132);
+    color: white;
+}
+
+.edit_botoni{
+    font: bold 15px Verdana;
+    text-decoration:none;
+    border:2px solid #ddb153;
+    padding:5px 10px 5px 10px;
+    border-radius:7px;
+    transition: background .5s, color .5s;
+}
+
+.edit_botoni:hover{
+    background: rgb(226, 212, 11);
+    color: white;
+}
+
+.edit_botond{
+    font: bold 15px Verdana;
+    text-decoration:none;
+    border:2px solid rgb(228, 9, 9);
+    padding:5px 10px 5px 10px;
+    border-radius:7px;
+    transition: background .5s, color .5s;
+}
+
+.edit_botond:hover{
+    background: rgb(245, 87, 87);
+    color: white;
+}
+
+
+
+.edit{
+    text-align: center;
+    font: 20px "Segoe UI";
+    border: solid 2px rgb(45, 158, 0);
+    padding:  10px;
+    border-radius: 6px;
+}

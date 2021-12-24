@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link href="css/botones.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet">
+    <link href="alertas/css/alertify.css" rel="stylesheet">
+    <link href="alertas/css/themes/default.css" rel="stylesheet">
+
+
+
+    <link rel="shortcut icon" href="imagenes/iconos/icono.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tu cultivo</title>
+</head>
+
+<body>
+
+    <!--Cambio de contraseña.-->
+    
+    <h1 id="titulo" class="animate__animated animate__zoomIn">Bienvenido!</h1>
+    <center>
+    <input id="usuario" type="text" class="edit animate__animated animate__zoomIn"  placeholder="Ingrese su usuario">
+    <br>
+    <br>
+    <input id="contrasena" type="password" class="edit animate__animated animate__zoomIn"  placeholder="Ingrese su contraseña">
+    <br>
+    <br>
+    <button id="login" class="edit_boton animate__animated animate__fadeInBottomLeft" >Ingresar</button>
+    <button id="cambio" class="edit_boton animate__animated animate__fadeInBottomRight">Restablecer contraseña</button>
+    <hr> 
+
+
+    <!--Parte de cambio de contraseña.-->
+
+    <div class="ocultar_cambio">
+
+        <h1 id="titulo" class="animate__animated animate__zoomIn">Cambio de contraseña</h1>
+        <input id="usuarionew" type="text"  class="edit animate__animated animate__zoomIn" placeholder="Ingrese su usuario">
+        <br>
+        <br>
+        <input id="contrasena_nueva" type="password"  class="edit animate__animated animate__zoomIn" placeholder="Contraseña nueva">
+        <br>
+        <br>
+        <input id="confirme_contrasena" type="password"  class="edit animate__animated animate__zoomIn" placeholder="Confirme contraseña">
+        <br>
+        <br>
+        <button id="B_change_pass" class="edit_boton animate__animated animate__zoomIn">Cambiar</button>
+       
+
+    </div>
+    </center>
+
+
+    <script src="js/login.js"></script>
+    <script src="jquery/jquery.min.js"></script>
+
+    
+    <!-- Core plugin JavaScript-->
+    <script src="jquery-easing/jquery.easing.min.js"></script>
+
+    
+    <script type="text/JavaScript">
+        $(".ocultar_cambio").hide();
+    </script>
+
+    <script src="alertas/alertify.js"></script>
+
+
+</body>
+</html>

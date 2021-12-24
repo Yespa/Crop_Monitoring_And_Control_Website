@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="imagenes/iconos/icono.ico">
+	<link href="css/icon.css" rel="stylesheet">
+	<link href="css/banner.css" rel="stylesheet">
+    <link href="css/menu.css" rel="stylesheet">
+	<link href="css/estilo.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu cultivo</title>
+</head>
+<body>
+	<header class="animate__animated animate__slideInDown">
+		<nav>
+			<ul>
+				<li><a href="http://192.168.1.9:3001/home"><span class="primero"><i class="icon icon-home"></i></span>Inicio</a></li>
+				<li><a href="#"><span class="segundo"><i class="icon icon-cultivos"></i></span>Cultivo</a>
+					<ul>
+						<li><a href="http://192.168.1.9:3001/humedad"><i class="icon icon-humedad"></i>Humedad</a></li>
+						<li><a href="http://192.168.1.9:3001/techo"><i class="icon icon-techo"></i>Techo</a></li>
+						<li><a href="http://192.168.1.9:3001/dataph"><i class="icon icon-ph"></i>PH</a></li>
+						<li><a href="http://192.168.1.9:3001/estadistic"><i class="icon icon-temp"></i>Temperatura</a></li>
+					</ul>
+				</li>
+				<li><a href="#"><span class="tercero"><i class="icon icon-contacto"></i></span>Contacto</a></li>
+				<li><a id="exit" href="http://192.168.1.9:3001/"><span class="cuarto"><i class="icon icon-salir"></i></span>Salir</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section id="banner" class="animate__animated animate__slideInDown">
+			<img src="imagenes/7.jpg">
+		</section>
+
+
+		<div class="container">
+			<section class="main row">
+				<article class="col-md-12 animate__animated animate__zoomIn">
+					<br>
+					<center><h1>Bienvenido!</h1></center>
+					<p>Integre soluciones IoT para tener un completo control de la salud, calidad y rendimiento de sus plantaciones mediante mediciones inteligentes.</p>
+				</article>
+				
+				<div class="col-md-3 ajuste animate__animated animate__fadeInBottomLeft">
+					<img src="imagenes/11.jpg" class="img-responsive img-rounded">
+				</div>
+
+				<div class="col-md-3 ajuste animate__animated animate__fadeInBottomLeft">
+					<p>
+						<h3>Estadisticas generales del cultivo.</h3>
+						<a href="http://192.168.1.9:3001/estadistic">Ver información aquí.</a>
+					</p>
+				</div>
+
+				<div class="col-md-3 ajuste animate__animated animate__fadeInBottomRight">
+					<img src="imagenes/10.jpg" class="img-responsive img-rounded">
+				</div>
+
+				<div class="col-md-3 ajuste animate__animated animate__fadeInBottomRight">
+					<p>
+						<h3 id="h">Humedad.</h3>
+						<a href="http://192.168.1.9:3001/humedad">Ver estado.</a>
+					</p>
+				</div>
+
+				<div class="col-md-3 ajuste animate__animated animate__fadeInBottomLeft">
+					<br>
+					<img src="imagenes/14.jpg" class="img-responsive img-rounded">
+				</div>
+				<div> </div>
+				<div class="col-md-3 ajuste animate__animated animate__fadeInBottomLeft">
+					<br>
+					<p>
+						<h3>PH.</h3>
+						<a href="http://192.168.1.9:3001/dataph">Ver estado.</a>
+					</p>
+				</div>
+
+
+				<div class="col-md-3 ajuste animate__animated animate__fadeInBottomRight">
+					<br>
+					<img src="imagenes/16.jpg" class="img-responsive img-rounded">
+				</div>
+
+				<div class="col-md-3 ajuste animate__animated animate__fadeInBottomRight">
+					<br>
+					<p>
+						<h3>Techo del invernadero.</h3>
+						<a href="http://192.168.1.9:3001/techo">Ver estado.</a>
+					</p>
+				</div>
+
+
+
+			</section>
+		 </div>
+
+	</main>
+
+	<br>
+	<br>		 
+	<footer class="animate__animated animate__slideInUp">
+		<p>Desing by: David Upegui - Yesid Palencia</p>
+		
+	</footer>
+
+
+
+	<script src="jquery/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/home.js"></script>
+	 	 
+</body>
+</html>

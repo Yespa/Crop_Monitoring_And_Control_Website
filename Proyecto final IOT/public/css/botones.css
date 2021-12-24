@@ -1,0 +1,37 @@
+#titulo{
+
+    /* Apartir de esta linea estoy editando estilos en mi titulo*/
+        text-align: center; /*Centro el título*/
+        margin-top: 20px;
+        margin-bottom: 20px;
+       
+        /*CAMBIO EL TIPO DE LETRA*/
+        font-family:Monaco,Georgia,Times,serif;
+    
+        /* LE PONGO COLOR A LA LETRA Y AL BORDE DE ELLA*/
+        -webkit-text-fill-color: rgb(9, 228, 9);
+        -webkit-text-stroke: 1px black;
+    
+}
+
+.edit_boton{
+    font: bold 15px Verdana;
+    text-decoration:none;
+    border:2px solid rgb(9, 228, 9);
+    padding:5px 10px 5px 10px;
+    border-radius:10px;
+    transition: background .5s, color .5s;
+}
+
+.edit_boton:hover{
+    background: rgb(131, 231, 84);
+    color: white;
+
+}
+
+.edit{
+    font: 15px "Segoe UI";
+    border: solid 2px rgb(45, 158, 0);
+    padding:  10px;
+    border-radius: 7px;
+}

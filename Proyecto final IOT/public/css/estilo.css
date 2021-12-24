@@ -1,0 +1,28 @@
+body{
+    min-height: 100vh;
+    margin: 0;
+    background: rgb(227, 255, 213);
+    font-family:Ginebra,helvética;
+
+}
+
+.ajuste img{
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+  }
+
+@supports(object-fit: cover){
+    .ajuste img{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+}
+
+.ajuste:hover img{-webkit-transform:scale(1.3);transform:scale(0.98);}
+
+
+footer{
+    background: #06623b;
+}
